@@ -1,0 +1,261 @@
+* {
+    padding: 0px;
+    margin: 0px;
+
+}
+
+/* hedear-design */
+.hedear {
+    background-image: url(../images/banner/banner2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 200vh;
+    text-align: right;
+    align-items: center;
+}
+
+.hedear-banner {
+    padding-top: 220px;
+    padding-right: 200px;
+}
+
+.hedear-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    color: black;
+    font-size: 65px;
+    line-height: 76px;
+    margin-bottom: 30px;
+}
+
+.hedear-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 30px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.hedear-button {
+    width: 150px;
+    height: 60px;
+    background-color: #F15B22;
+    border: none;
+    border-radius: 5px;
+}
+
+.hedear-button span {
+    color: #FFFFFF;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+/* section one disign */
+.section-one {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    margin-top: 50px;
+}
+.section-one-img{
+    
+}
+.section-one-div {
+    margin-top: 220px;
+}
+
+.section-one-title {
+    margin-bottom: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bolder;
+    font-size: 40px;
+    padding-left: 15px;
+
+}
+
+.section-one-description {
+    margin-bottom: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Open Sans', sans-serif;
+    color: #444343;
+    padding-left: 15px;
+}
+.section-one-list{
+    margin-left: 15px;
+    list-style: none;
+    line-height: 30px;
+    font-size: larger;
+}
+.section-one-list li::before{
+    color: #16D887;
+    content: '✓';
+}
+.section-one-list li{
+    gap: 5px;
+}
+/* My plan section two */
+.section-two{
+    padding-top: 150px;
+}
+.section-two-title{
+margin-left: 45%;
+font-size: 2.5rem;
+font-weight: bolder; 
+}
+.section-two-skills{
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+    gap: 80px;
+    padding-left: 40px;
+}
+.web{
+    align-items:center;
+    text-align: center;
+}
+.java{
+    text-align: center;
+}
+.smoking{
+    text-align: center;
+}
+.ecommerce{
+    text-align: center;
+}
+.section-two-subtitle{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 2.1rem;
+}
+.section-two-description{
+    font-size: 1.5rem;
+    color: #737272
+}
+/* section-three-styles */
+.my-steps-section{
+    margin-top: 7.5%;
+}
+.section-three-main{
+    display: flex;
+    margin-left: 250px;
+    gap: 25px;
+    padding-left: 20px;
+}
+.section-three-title{
+  margin-left: 45%;
+  font-size: 2.25rem;
+  font-weight: bolder;
+  padding-bottom: 30px;
+}
+.section-three-child{
+    background-color:#F8F9FA ;
+    width: 25%;
+    height: 30%;
+    text-align: left;
+    padding: 20px;
+    border: 2px solid gray;
+}
+.section-three-description{
+    padding-top: 14px;
+}
+/* section four style */
+.call-now-section{
+    height: 300px;
+    width: 1140px;
+    background-image: url(../images/watch.png), url(../images/gradient2.png);
+    background-repeat: no-repeat;
+    background-blend-mode: overlay;
+    background-image: linear-gradient(to right, red);
+    margin-left: 270px;
+    margin-top: 80px;
+    border-radius: 10px;
+}
+.section-four-title{
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 3rem;
+    padding-left: 70px;
+    padding-top: 70px;
+}
+.call-now{
+    font-size: 1.5rem;
+    height: 60px;
+    width: 150px;
+    color: red;
+    font-weight: bolder;
+    border-radius: 7px;
+    border: none;
+    margin-left: 70px;
+    margin-top: 30px;
+}
+/* footer section */
+.donate-footer{
+    margin-top: 100px;
+    width: 200vhvh;
+    background-color:black;
+    height: 570px;
+    color: #F8F8F8;
+    padding-right: 220px;
+}
+.footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-tittle{
+    color: #F8F8F8;
+    font-weight: bolder;
+    font-size: 3rem;
+    margin-bottom: 10px;
+    
+}
+.footer-subtitle{
+    color: #F8F8F8;
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+.div1-paragraph, .email, .phone-number{
+    color: #F8F8F8;
+}
+.div1-paragraph{
+    margin-bottom: 10px;
+    line-height: 20px;
+    font-size: larger;
+}
+.footer-btn{
+    border: 2px white;
+    border-radius: 5px;
+    width: 130px;
+    height: 50px;
+    color: #F15B22;
+    font-size: 1.4rem;
+    font-weight: bolder;
+    margin-top: 15px;
+}
+.footer-div2{
+ margin-top: 150px;
+}
+.footer-div1{
+    padding-left: 220px;
+    margin-top: 145px;
+}
+.email{
+    margin-bottom: 15px;
+
+}
+.phone-number{
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.email-1{
+    width: 325px;
+    height: 64px;
+    box-sizing: border-box;
+    border: 1.5px solid rgb(129, 125, 125);;
+    font-size: larger;
+    background-color: black
+    
+}
